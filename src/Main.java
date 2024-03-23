@@ -37,6 +37,12 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
-
+        //Задание 6
+        var boxOne = 82.7;
+        var boxTwo = 78.2;
+        var Sum = boxOne + boxTwo;
+        var Dif = boxOne - boxTwo;
+        System.out.println("Общий вес "+Sum+" кг");
+        System.out.println("Разница "+Dif+" кг");
     }
 }
