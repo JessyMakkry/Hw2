@@ -44,5 +44,9 @@ public class Main {
         var Dif = boxOne - boxTwo;
         System.out.println("Общий вес "+Sum+" кг");
         System.out.println("Разница между бойцами "+Dif+" кг");
+        //Задание 7
+        var mod = boxOne % boxTwo;
+        System.out.println(mod);
+        //Задание 8
     }
 }
