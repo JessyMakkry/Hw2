@@ -48,5 +48,13 @@ public class Main {
         var mod = boxOne % boxTwo;
         System.out.println(mod);
         //Задание 8
+        var hours = 640;
+        var workers = hours / 8;
+        System.out.println("Всего работников в компании - " + workers + " человек");
+        workers = workers + 94;
+        hours = workers * 8;
+        System.out.println("Если в компании работает " + workers +
+                " человек, то всего " + hours +
+                " часов работы может быть поделено между сотрудниками");
     }
 }
