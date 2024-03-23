@@ -43,6 +43,6 @@ public class Main {
         var Sum = boxOne + boxTwo;
         var Dif = boxOne - boxTwo;
         System.out.println("Общий вес "+Sum+" кг");
-        System.out.println("Разница "+Dif+" кг");
+        System.out.println("Разница между бойцами "+Dif+" кг");
     }
 }
